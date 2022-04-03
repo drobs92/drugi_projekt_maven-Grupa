@@ -12,13 +12,13 @@ public class KlasaKrystianDwa {
         String imieDwa = scanner.next();
 
         System.out.println("Podaj 1 liczbę zmiennoprzecinkową");
-        float liczba = scanner.nextFloat();
+        double liczba = scanner.nextDouble();
 
         System.out.println("Podaj 2 liczbę zmiennoprzecinkową");
-        float liczbaDwa= scanner.nextFloat();
+        double liczbaDwa= scanner.nextDouble();
 
-        float suma = liczba + liczbaDwa;
-        float roznica = liczba - liczbaDwa;
+        double suma = liczba + liczbaDwa;
+        double roznica = liczba - liczbaDwa;
 
         System.out.println("Hej " + imie + imieDwa + " suma tych dwóch liczb to: "
                 + suma + " a różnica: " + roznica);
